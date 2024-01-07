@@ -8,7 +8,6 @@ for i in range(n):
     for j in input().split(" "):
         matrix[i].append(int(j))
 
-
 for i in range(n):
     ifprint = False
     for j in range(n):
@@ -20,16 +19,3 @@ for i in range(n):
                 if j == n-1:
                     print(0)
                     ifprint = True
-        # for g in range(m):
-        #     if ifprint == True:
-        #         break
-        #     elif ifprint == False and j == n-1 and g == m-1:
-        #         print(0)
-        #         ifprint = True
-        #     else:
-        #         if matrix[i][g] < matrix[j][g]:
-        #             num += 1
-        #             if num == m:
-        #                 print(j+1)
-        #                 ifprint = True
-
