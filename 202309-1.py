@@ -1,3 +1,5 @@
+# 坐标变换（其一）
+
 n, m = map(int, input().split())
 
 listT = []  
